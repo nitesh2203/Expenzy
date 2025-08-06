@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.13.0",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
+"scripts": {
+  "start": "vite",             // or "react-scripts start" for CRA
+  "build": "vite build",       // or "react-scripts build" for CRA
+  "dev": "vite",               // (optional)
+  "preview": "vite preview"    // (optional)
+}

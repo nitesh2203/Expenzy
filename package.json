@@ -14,3 +14,9 @@
     "dev": "nodemon server.js"
   }
 }
+"scripts": {
+  "start": "vite",             // or "react-scripts start" for CRA
+  "build": "vite build",       // or "react-scripts build" for CRA
+  "dev": "vite",               // (optional)
+  "preview": "vite preview"    // (optional)
+}
